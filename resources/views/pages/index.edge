@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>RainDrop</title>
+</head>
+
+<body class="grid grid-rows-3 bg-beige">
+    <!-- Header Section -->
+    <div id="headerDiv" class="z-10">
+        <header class="fixed inset-x-0 top-0 flex items-center justify-between w-screen h-[8vh] bg-[#090129d7] font-medium text-base font-['Oxygen',serif]">
+            <a href="/" id="homeButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige] ml-[50px] mr-auto">
+                <img src="../../assets/raindrop_logo.png" class="h-8 w-8">
+            </a>
+            <a id="productButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige]" href="products">Products</a>
+            <a id="cartButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige] mr-[50px]" href="cart">Cart</a>
+        </header>
+    </div>
+    <!-- Header Section -->
+
+    <div id="content" class="flex flex-col">
+        <div id="motto" class="flex flex-col items-center justify-center bg-white w-screen h-[75vh] py-[100px] text-[3rem] font-['Oxygen',serif] text-[#1f102a]">
+            <p>After the rain,</p>
+            <img id="sun" src="../../assets/sun.png" class="h-20 w-20 animate-spin">
+            <p>comes the rainbow.</p>
+            <p class="small-text mt-6 font-medium text-[1rem] text-center">Pixel Arts, Game Assets, and More.</p>
+        </div>
+
+        <section id="bestSeller" class="flex flex-col items-center bg-[beige] w-screen py-[100px] text-[3rem] font-['Oxygen',serif] text-[#1e4269]">
+            <div class="flex flex-col items-center">
+                <p>Our Best Sellers</p>
+                <p class="small-text mt-6 font-medium text-[1rem] text-center">Brought to you by stratus clouds</p>
+            </div>
+
+            <div class="flex items-center justify-center w-full max-w-6xl px-8 mt-6">
+                <div class="bestSellerItem flex flex-col items-center justify-center w-[200px] h-[400px] mt-6 px-6 mx-6 rounded-[25px] bg-white text-[#1f102a] shadow-md">
+                    <img class="itemImg mt-6 w-[150px] rounded-[15px]" src="../../assets/Cat Serenade.png" alt="Cat Serenade">
+                    <p class="small-text mt-6 mb-6 font-medium text-[1rem] text-center">Small display image of a cute cat in a box.</p>
+                    <a class="addToCartButton inline-block p-4 rounded-[25px] border-4 border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-lg">Add to Cart</a>
+                </div>
+
+                <div class="bestSellerItem flex flex-col items-center justify-center w-[200px] h-[400px] mt-6 px-6 mx-6 rounded-[25px] bg-white text-[#1f102a] shadow-md">
+                    <img class="itemImg mt-6 w-[150px] rounded-[15px]" src="../../assets/Fawn.png" alt="Fawn">
+                    <p class="small-text mt-6 mb-6 font-medium text-[1rem] text-center">Character "Fawn" spritesheet and animations.</p>
+                    <a class="addToCartButton inline-block p-4 rounded-[25px] border-4 border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-lg">Add to Cart</a>
+                </div>
+
+                <div class="bestSellerItem flex flex-col items-center justify-center w-[200px] h-[400px] mt-6 px-6 mx-6 rounded-[25px] bg-white text-[#1f102a] shadow-md">
+                    <img class="itemImg mt-6 w-[150px] rounded-[15px]" src="../../assets/The Lepidopterist.png" alt="The Lepidopterist">
+                    <p class="small-text mt-6 mb-6 font-medium text-[1rem] text-center">Medium display image of a butterfly on a compass.</p>
+                    <a class="addToCartButton inline-block p-4 rounded-[25px] border-4 border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-lg">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="featuredProducts" class="flex flex-col items-center bg-white w-screen py-[100px] text-[3rem] font-['Oxygen',serif] text-[#1f102a]">
+            <div class="flex flex-col items-center">
+                <p>Made with Love</p>
+                <p class="small-text mt-6 font-medium text-[1rem] text-center">Brought to you by nimbus clouds</p>
+            </div>
+
+            <div class="flex items-center justify-center w-full max-w-6xl px-8 mt-6">
+                <div class="featuredItem flex flex-col items-center justify-center w-[300px] h-[600px] mt-6 px-6 mx-6 rounded-[25px] bg-[beige] text-[#1e4269] shadow-md">
+                    <img class="itemImg mt-6 w-[250px] rounded-[15px]" src="../../assets/OMORI White Space.png" alt="OMORI White Space">
+                    <p class="small-text mt-6 font-medium text-[1rem] text-center">A personal world in a monochrome setting.</p>
+                    <ul class="small-text mt-4 text-[1rem] text-left list-disc pl-5">
+                        <li>Character & tile spritesheet</li>
+                        <li>Background image & music</li>
+                    </ul>
+                    <a class="addToCartButton inline-block mt-6 p-4 rounded-[25px] border-4 border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-lg">Add to Cart</a>
+                </div>
+
+                <div class="featuredItem flex flex-col items-center justify-center w-[300px] h-[600px] mt-6 px-6 mx-6 rounded-[25px] bg-[beige] text-[#1e4269] shadow-md">
+                    <img class="itemImg mt-6 w-[250px] rounded-[15px]" src="../../assets/OMORI Neighbor's Room.png" alt="OMORI Neighbor's Room">
+                    <p class="small-text mt-6 font-medium text-[1rem] text-center">A playground world in a dreamlike setting.</p>
+                    <ul class="small-text mt-4 text-[1rem] text-left list-disc pl-5">
+                        <li>Tile spritesheet</li>
+                        <li>Background image & music</li>
+                    </ul>
+                    <a class="addToCartButton inline-block mt-6 p-4 rounded-[25px] border-4 border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-lg">Add to Cart</a>
+                </div>
+
+                <div class="featuredItem flex flex-col items-center justify-center w-[300px] h-[600px] mt-6 px-6 mx-6 rounded-[25px] bg-[beige] text-[#1e4269] shadow-md">
+                    <img class="itemImg mt-6 w-[250px] rounded-[15px]" src="../../assets/OMORI Mari's Picnic.png" alt="OMORI Mari's Picnic">
+                    <p class="small-text mt-6 font-medium text-[1rem] text-center">A picnic styled world in a dreamlike setting.</p>
+                    <ul class="small-text mt-4 text-[1rem] text-left list-disc pl-5">
+                        <li>Character & tile spritesheet</li>
+                        <li>Background image & music</li>
+                    </ul>
+                    <a class="addToCartButton inline-block mt-6 p-4 rounded-[25px] border-4 border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-lg">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="otherProducts" class="flex flex-col items-center bg-[beige] w-screen py-[100px] text-[3rem] font-['Oxygen',serif] text-[#1e4269]">
+            <div class="flex flex-col items-center">
+                <p>Didn't find what you were looking for?</p>
+                <p class="small-text mt-6 font-medium text-[1rem] text-center">Let's see what the cirrus clouds have brought for us.</p>
+            </div>
+            <a class="browseButton inline-block mt-6 p-4 rounded-[25px] border-4 border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-lg" href="products">Products</a>
+        </section>
+    </div>
+    <footer class="mt-[100px] flex flex-col items-center bg-[#090129] w-screen pt-[100px] pb-[100px] text-[3rem] font-['Oxygen',serif] text-white">
+        <p>©2025 RainDrop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

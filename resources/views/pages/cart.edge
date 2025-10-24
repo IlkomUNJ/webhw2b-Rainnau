@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>RainDrop</title>
+</head>
+
+<body class="grid grid-rows-3 bg-beige">
+    <!-- Header Section -->
+    <div id="headerDiv" class="z-10">
+        <header class="fixed inset-x-0 top-0 flex items-center justify-between w-screen h-[8vh] bg-[#090129d7] font-medium text-base font-['Oxygen',serif]">
+            <a href="/" id="homeButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige] ml-[50px] mr-auto">
+                <img src="../../assets/raindrop_logo.png" class="h-8 w-8">
+            </a>
+            <a id="productButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige]" href="products">Products</a>
+            <a id="cartButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige] mr-[50px]" href="cart">Cart</a>
+        </header>
+    </div>
+    <!-- Header Section -->
+
+    <div id="checkoutCart" class="flex flex-col items-center bg-[beige] w-screen py-[100px] text-[3rem] font-['Oxygen',serif] text-[#1e4269]">
+        <div class="flex flex-col items-center justify-center">
+            <p>Your Shopping Cart</p>
+            <p class="mt-[25px] mb-[25px] ml-[25px] font-medium text-[1rem] text-center">Review your selected items and checkout.</p>
+        </div>
+
+        <div id="orderDetails" class="flex justify-between w-full max-w-[1200px] mt-[25px]">
+            <div id="orderList" class="flex flex-row items-center w-[600px] h-[300px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)]">
+                <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\Cat Serenade.png" alt="Cat Serenade">
+                <p class="mt-[25px] mb-[25px] ml-[25px] font-medium text-[1rem] text-center">Small display image of a cute cat in a box.</p>
+                <p class="mt-[25px] mb-[25px] ml-[25px] font-medium text-[1rem] text-center">$1.99</p>
+            </div>
+        </div>
+
+        <a class="mt-[25px] p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] text-[1rem] hover:bg-[#1f102a] hover:text-[beige] hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] cursor-pointer">Checkout</a>
+    </div>
+    <footer class="mt-[100px] flex flex-col items-center bg-[#090129] w-screen pt-[100px] pb-[100px] text-[3rem] font-['Oxygen',serif] text-white">
+        <p>©2025 RainDrop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

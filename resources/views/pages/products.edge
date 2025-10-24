@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oxygen:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>RainDrop</title>
+</head>
+
+<body class="grid grid-rows-3 bg-beige">
+    <!-- Header Section -->
+    <div id="headerDiv" class="z-10">
+        <header class="fixed inset-x-0 top-0 flex items-center justify-between w-screen h-[8vh] bg-[#090129d7] font-medium text-base font-['Oxygen',serif]">
+            <a href="/" id="homeButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige] ml-[50px] mr-auto">
+                <img src="../../assets/raindrop_logo.png" class="h-8 w-8">
+            </a>
+            <a id="productButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige]" href="products">Products</a>
+            <a id="cartButton" class="flex h-[50px] px-[10px] items-center justify-center text-[beige] border-b-[3px] border-b-[rgba(9,1,41,0.842)] hover:border-b-[beige] mr-[50px]" href="cart">Cart</a>
+        </header>
+    </div>
+    <!-- Header Section -->
+
+    <div id="content">
+        <div id="products" class="flex flex-col items-center bg-beige w-screen pt-[100px] pb-[100px] text-[3rem] font-['Oxygen',serif] text-[#1e4269]">
+            <div class="flex flex-col items-center justify-center">
+                <p>All of Our Products</p>
+                <p class="mt-[8px] font-medium text-[1rem] font-['Oxygen',serif] text-[#1e4269]">Brought to you by cirrus clouds</p>
+            </div>
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\Cat Serenade.png">
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">Small display image of a cute cat in a box.</p>
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$1.99</p>
+                    <a class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\Fawn.png">
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">Character "Fawn" spritesheet and animations.</p>
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$1.99</p>
+                    <a class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\The Lepidopterist.png">
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">Medium display image of a butterfly on a compass.</p>
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$1.99</p>
+                    <a class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\OMORI White Space.png">
+                    <p class="mt-[25px] mb-[8px] font-medium text-[1rem] font-['Oxygen',serif] text-center">A personal world in a monochrome setting.</p>
+                    <ul class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-left">
+                        <li>Character & tile spritesheet</li>
+                        <li>Background image & music</li>
+                    </ul>
+                    <p class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$8.99</p>
+                    <a class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\OMORI Neighbor's Room.png">
+                    <p class="mt-[25px] mb-[8px] font-medium text-[1rem] font-['Oxygen',serif] text-center">A playground world in a dreamlike setting.</p>
+                    <ul class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-left"></ul>
+                        <li>Tile spritesheet</li>
+                        <li>Background image & music</li>
+                    </ul>
+                    <p class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$8.99</p>
+                    <a class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\OMORI Mari's Picnic.png">
+                    <p class="mt-[25px] mb-[8px] font-medium text-[1rem] font-['Oxygen',serif] text-center">A picnic styled world in a dreamlike setting.</p>
+                    <ul class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-left">
+                        <li>Character & tile spritesheet</li>
+                        <li>Background image & music</li>
+                    </ul>
+                    <p class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$8.99</p>
+                    <a class="mt-[8px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\Fish-1.png">
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">Small spritesheet & animations of a bass fish.</p>
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$1.99</p>
+                    <a class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\Fish-2.png">
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">Small spritesheet & animations of a catfish.</p>
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$1.99</p>
+                    <a class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\Fish-3.png">
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">Small spritesheet & animations of a freshwater fish.</p>
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$1.99</p>
+                    <a class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+                <div class="w-[300px] h-[600px] mt-[25px] px-[25px] mx-[25px] rounded-[25px] bg-white text-[#1f102a] shadow-[2px_2px_6px_rgba(0,0,0,0.5)] flex flex-col items-center justify-center">
+                    <img class="mt-[25px] w-[150px] rounded-[15px]" src="..\assets\Fish-4.png">
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">Small spritesheet & animations of an eel.</p>
+                    <p class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center">$1.99</p>
+                    <a class="mt-[25px] mb-[25px] font-medium text-[1rem] font-['Oxygen',serif] text-center p-[15px] rounded-[25px] border-[5px] border-[#1f102a] text-[#1f102a] hover:bg-[#1f102a] hover:text-beige hover:shadow-[0px_5px_15px_rgba(0,0,0,0.35)] hover:cursor-pointer">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+     </div>
+    <footer class="mt-[100px] flex flex-col items-center bg-[#090129] w-screen pt-[100px] pb-[100px] text-[3rem] font-['Oxygen',serif] text-white">
+        <p>©2025 RainDrop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
